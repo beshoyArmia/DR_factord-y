@@ -43,7 +43,6 @@ export default function Navbar() {
 
   const navLinks = [
     ...dynamicLinks,
-    { href: "/custom-design", label: t("nav.uploadDesign"), highlight: true },
   ];
 
   return (

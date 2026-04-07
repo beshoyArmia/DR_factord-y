@@ -94,12 +94,6 @@ export default function Home() {
             >
               {t("home.shopBtn")}
             </Link>
-            <Link 
-              href="/custom-design" 
-              className="bg-transparent border border-white text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-black transition-all flex items-center justify-center w-full sm:w-auto active:scale-95"
-            >
-              {t("home.designBtn")} <ArrowRight className="ms-2 w-4 h-4 rtl:-scale-x-100" />
-            </Link>
           </div>
         </motion.div>
       </section>
